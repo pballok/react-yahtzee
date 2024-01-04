@@ -1,5 +1,13 @@
+import 'bulma/css/bulma.css';
+
+import Dice from './Dice';
+
 function App() {
-    return <div>Yahtzee!</div>;
+    return (
+        <section className="section">
+            <Dice />
+        </section>
+    );
 }
 
 export default App;
